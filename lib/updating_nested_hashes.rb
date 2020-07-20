@@ -38,7 +38,8 @@ def add_characters
          :hero_friends => [
             {name: "Benvolio", age: "17", attitude: "worried"},
             {name: "Mercutio", age: "18", attitude: "hot-headed"}
-         ]
+         ],
+         :additional_characters => [{name:"Prince Escalus"}]
       },
       :capulet => {
          :patriarch => {name: "Lord Capulet", age: "50"},
@@ -47,7 +48,8 @@ def add_characters
          :heroine_friends => [
          {name: "Steven", age: "30", attitude: "confused"},
          {name: "Nurse", age: "44", attitude: "worried"}
-         ]
+         ],
+         :additional_characters => [{name: "Apothecary"}]
       }
    }
 
@@ -59,12 +61,6 @@ def add_characters
    #   - The second hash should have the :name key set to "Apothecary" 
    # Code your solution here:
 
-epic_tragedy => {
-  :patriarch => {name: "Prince Escalus"}
-}
-epic_tragedy => {
-  :matriarch => {name: "Apothecary"}
-}
    # After your code, the following line will return the altered hash
    epic_tragedy
 end
