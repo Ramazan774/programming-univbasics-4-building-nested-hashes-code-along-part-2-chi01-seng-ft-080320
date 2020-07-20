@@ -60,12 +60,11 @@ def add_characters
    # Code your solution here:
 
 epic_tragedy => {
-  
+  :patriarch => {name: "Prince Escalus"}
 }
-
-
-
-
+epic_tragedy => {
+  :matriarch => {name: "Apothecary"}
+}
    # After your code, the following line will return the altered hash
    epic_tragedy
 end
