@@ -50,6 +50,8 @@ def add_characters
          ]
       }
    }
+ end
+ 
 
    # Write code below that does the following programmatically:
    #
@@ -65,4 +67,3 @@ epic_tragedy => {
 }
    # After your code, the following line will return the altered hash
    epic_tragedy
-end
